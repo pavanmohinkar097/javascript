@@ -28,7 +28,7 @@ searchBtn.addEventListener('click',()=>{
     
 });
 formBtn.addEventListener('click',()=>{
-    loginForm.classList.toggle('active');
+    loginForm.classList.add('active');
 });
 formClose.addEventListener('click',()=>{
     loginForm.classList.remove('active');
